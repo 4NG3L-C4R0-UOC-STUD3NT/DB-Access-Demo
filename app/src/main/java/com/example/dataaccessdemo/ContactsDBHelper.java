@@ -8,8 +8,6 @@ import androidx.annotation.Nullable;
 
 public class ContactsDBHelper extends SQLiteOpenHelper {
 
-
-
     // Database Info
     private static final String DATABASE_NAME = "Contact_Details";
     private static final int DATABASE_VERSION = 1;

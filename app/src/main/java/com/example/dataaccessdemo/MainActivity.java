@@ -62,8 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String contactNumber = cursor.getString(cursor.getColumnIndexOrThrow(TableDetails.Entry.COLUMN_CONTACT_NUMBER));
             String id = cursor.getString(cursor.getColumnIndexOrThrow(TableDetails.Entry._ID));
 
-            Log.d("[DB_ENTRY]", "seeContent: { " + id + "," + firstName + "," + lastName + "," + lastName + " }");
-
+            Log.d("[DB_ENTRY]", "seeContent: { " + id + "," + firstName + "," + lastName + "," + contactNumber + " }");
         }
     }
 

@@ -20,6 +20,8 @@ public class TableDetails {
                     Entry.COLUMN_LAST_NAME + " TEXT, " +
                     Entry.COLUMN_CONTACT_NUMBER + " TEXT " +
             ")";
+
     public static final String DROP_TABLE =
             "DROP TABLE IF EXISTS " + Entry.TABLE_NAME;
+
 }
